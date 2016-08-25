@@ -26,6 +26,8 @@ Setup
     * Minion 2: node=mongo-db1, arbiter=true
       For example:
     ````	
+kubectl get nodes
+
 export MONGODB1=<node1>
 export MONGODB2=<node2>
 kubectl label node $MONGODB1 node=mongo-db1 arbiter=true
