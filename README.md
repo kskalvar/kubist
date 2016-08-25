@@ -30,6 +30,7 @@ kubectl get nodes
 
 export MONGODB1=<node1>
 export MONGODB2=<node2>
+
 kubectl label node $MONGODB1 node=mongo-db1 arbiter=true
 kubectl label node $MONGODB2 node=mongo-db2 arbiter=true
 
