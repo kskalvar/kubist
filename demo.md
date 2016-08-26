@@ -187,7 +187,9 @@ git clone https://github.com/polyakov/kubist
 #### Label nodes
 ```
 kubectl get nodes
+
 kubectl label node $MONGODB1 node=mongo-db1 arbiter=true
+
 kubectl label node $MONGODB2 node=mongo-db2 arbiter=true
 
 kubectl get nodes -L node -L arbiter
