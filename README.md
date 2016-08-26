@@ -47,9 +47,7 @@ kubectl get nodes -L name -L arbiter
 1. Check to make sure everything is running
     ````
        kubectl get pods
-       
        kubectl get rc
-       
        kubectl get svc
        
     ````
